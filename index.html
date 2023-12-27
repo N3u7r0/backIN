@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>back-up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Back-IN</h1>
+        <p>Aplicacion de backup para productos.</p>
+    </header>
+    <section>
+        <div class="contenedorStockProductos">
+            <h2>Stock de productos.</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID:</th>
+                        <th>Tipo:</th>
+                        <th>Fabricante:</th>
+                        <th>Modelo:</th>
+                        <th>precio:</th>
+                        <th>Cantidad:</th>
+                    </tr>
+                </thead>
+                <tbody id="tbProductos">
+                </tbody>
+            </table>
+        </div>
+        <form action="#" id="formulario">
+            <h2>Agregar producto.</h2>
+            <ul class="ulAgregarProducto">
+                <li>
+                    <div class="contenedorLi">
+                        <strong>Tipo:</strong>
+                        <input id="inputTipo" type="text" placeholder="Ingrese el tipo de roducto">
+                    </div>
+                </li>
+                <li>
+                    <div class="contenedorLi">
+                        <strong>Fabricante:</strong>
+                        <input id="inputFabricante" type="text" placeholder="Ingrese la marca">
+                    </div>
+                </li>
+                <li>
+                    <div class="contenedorLi">
+                        <strong>Modelo:</strong>
+                        <input id="inputModelo" type="text" placeholder="Ingrese el modelo">
+                    </div>
+                </li>
+                <li>
+                    <div class="contenedorLi">
+                        <strong>Precio:</strong>
+                        <input id="inputPrecio" type="number" placeholder="Ingrese el valor">
+                    </div>
+                </li>
+                <li>
+                    <div class="contenedorLi">
+                        <strong>Cantidad:</strong>
+                        <input id="inputCantidad" type="number" placeholder="Ingrese la Cantidada">
+                    </div>
+                </li>
+                <li>
+                    <div class="contenedorLi">
+                        <br>
+                        <button id="btnGuardar"><strong>Guardar producto</strong></button>
+                    </div>
+                </li>
+            </ul>
+            </div>
+    </section>
+    <footer>
+        <div>
+            <h4>Creado por Brian Sabatini</h4>
+            <span>v:1.0</span>
+        </div>
+    </footer>
+</body>
+<script src="main.js"></script>
+
+</html>

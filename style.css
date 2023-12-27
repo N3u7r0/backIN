@@ -1,0 +1,75 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+}
+
+body {
+    background-image: url(./images/fondoPixelARt.gif);
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(152, 2, 2, 0.89);
+}
+
+footer {
+    background-color: rgba(152, 2, 2, 0.89);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+section {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.contenedorStockProductos {
+    text-align: center;
+}
+
+table {
+    border: solid 2px black;
+}
+
+thead {
+    background-color: rgb(225, 126, 5);
+}
+
+th {
+    border: solid 2px black;
+    padding: 2px;
+}
+
+tBody {
+    background-color: antiquewhite;
+}
+
+td {
+    border: solid 1px black;
+    padding: 1px 5px 1px 5px;
+}
+
+.contenedorLi {
+    display: grid;
+    text-align: center;
+    border: solid 1px black;
+    background-color: rgb(225, 126, 5);
+
+}
+
+input {
+    background-color: rgb(255, 244, 230);
+}
+
+button {
+    background-color: rgb(3, 190, 3);
+}
+
+h2 {
+    color: orange;
+    background-color: rgba(45, 26, 1, 0.881)
+}
